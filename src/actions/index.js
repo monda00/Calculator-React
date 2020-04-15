@@ -1,10 +1,10 @@
-import * as actionType from '../utils/actionType';
+import * as actionTypes from '../utils/actionTypes';
 
 export const onNumClick = (number) => ({
-  type: actionType.INPUT_NUMBER,
+  type: actionTypes.INPUT_NUMBER,
   number,
 });
 
 export const onPlusClick = () => ({
-  type: actionType.PLUS,
+  type: actionTypes.PLUS,
 });
